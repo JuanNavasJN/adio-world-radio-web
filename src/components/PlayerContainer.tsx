@@ -3,6 +3,8 @@ import styles from '@/styles/PlayerContainer.module.css';
 import Image from 'next/image';
 import { StationsContext } from '@/contexts/StationsContext';
 import Slider from 'rc-slider';
+import pauseImg from '@/assets/pause.png';
+import playImg from '@/assets/play.png';
 
 import 'rc-slider/assets/index.css';
 
@@ -18,6 +20,7 @@ const PlayerContainer: FC = () => {
       setIsPlaying(true);
 
       if (audioRef.current) {
+        audioRef.current.volume = 0.5;
         audioRef.current.play();
       }
     }
@@ -56,7 +59,7 @@ const PlayerContainer: FC = () => {
         <button className={styles.playPauseButton} onClick={handlePlayStop}>
           <Image
             alt="play-pause"
-            src={isPlaying ? '/img/pause.png' : '/img/play.png'}
+            src={isPlaying ? pauseImg : playImg}
             width={buttonImgSize}
             height={buttonImgSize}
           />
@@ -65,7 +68,11 @@ const PlayerContainer: FC = () => {
         <p>{currentStation.name}</p>
       </div>
       <div className={styles.column}>
-        <Slider className={styles.slider} onChange={handleSliderChange} />
+        <Slider
+          className={styles.slider}
+          onChange={handleSliderChange}
+          defaultValue={50}
+        />
 
         <audio ref={audioRef} src={currentStation.url} />
       </div>
