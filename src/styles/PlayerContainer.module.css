@@ -1,0 +1,41 @@
+.playerContainer {
+  background-color: var(--dark-color);
+  border-top: 2px solid var(--light-color);
+  position: fixed;
+  width: 100vw;
+  height: 80px;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.playerContainer .column {
+  display: flex;
+  align-items: center;
+}
+
+.playerContainer .slider {
+  width: 150px;
+}
+
+.playerContainer p {
+  font-size: 18px;
+}
+
+.playPauseButton {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .playerContainer {
+    flex-direction: column;
+    height: 90px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+}

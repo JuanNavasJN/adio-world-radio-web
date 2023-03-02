@@ -1,0 +1,14 @@
+.navOption {
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s;
+}
+
+.navOption.isActive,
+.navOption:hover {
+  background-color: var(--highlight-color);
+}

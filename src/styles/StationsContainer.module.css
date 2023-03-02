@@ -1,0 +1,7 @@
+.stationsContainer {
+  display: flex;
+  padding-left: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
