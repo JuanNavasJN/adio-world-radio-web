@@ -1,14 +1,10 @@
 import React, { FC, useContext, useState, useEffect, useRef } from 'react';
 import styles from '@/styles/PlayerContainer.module.css';
-import Image from 'next/image';
 import { StationsContext } from '@/contexts/StationsContext';
 import Slider from 'rc-slider';
-import pauseImg from '@/assets/pause.png';
-import playImg from '@/assets/play.png';
+import PlayPauseButton from './PlayPauseButton';
 
 import 'rc-slider/assets/index.css';
-
-const buttonImgSize = 50;
 
 const PlayerContainer: FC = () => {
   const { currentStation } = useContext(StationsContext);
@@ -56,14 +52,7 @@ const PlayerContainer: FC = () => {
   return (
     <section className={styles.playerContainer}>
       <div className={styles.column}>
-        <button className={styles.playPauseButton} onClick={handlePlayStop}>
-          <Image
-            alt="play-pause"
-            src={isPlaying ? pauseImg : playImg}
-            width={buttonImgSize}
-            height={buttonImgSize}
-          />
-        </button>
+        <PlayPauseButton onClick={handlePlayStop} isPlaying={isPlaying} />
 
         <p>{currentStation.name}</p>
       </div>

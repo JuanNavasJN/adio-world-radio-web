@@ -26,11 +26,6 @@
   font-size: 18px;
 }
 
-.playPauseButton {
-  margin-right: 20px;
-  cursor: pointer;
-}
-
 @media (max-width: 500px) {
   .playerContainer {
     flex-direction: column;
