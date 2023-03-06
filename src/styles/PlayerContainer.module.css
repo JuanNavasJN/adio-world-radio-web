@@ -28,9 +28,18 @@
 
 @media (max-width: 500px) {
   .playerContainer {
-    flex-direction: column;
-    height: 90px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .playerContainer .slider {
+    width: 120px;
+  }
+
+  .playerContainer p {
+    width: 120px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 }
