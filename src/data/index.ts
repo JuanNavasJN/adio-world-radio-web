@@ -1,9 +1,7 @@
-export const stationsByCountry = [
+export const countriesStations = [
   {
-    country: {
-      name: 'portugal',
-      displayName: 'Por 🇵🇹'
-    },
+    name: 'portugal',
+    displayName: 'Por 🇵🇹',
     stations: [
       {
         name: 'Radio Comercial',
@@ -23,10 +21,8 @@ export const stationsByCountry = [
     ]
   },
   {
-    country: {
-      name: 'poland',
-      displayName: 'Pol 🇵🇱'
-    },
+    name: 'poland',
+    displayName: 'Pol 🇵🇱',
     stations: [
       {
         name: 'RMF FM',
@@ -41,10 +37,8 @@ export const stationsByCountry = [
     ]
   },
   {
-    country: {
-      name: 'sweden',
-      displayName: 'Swe 🇸🇪'
-    },
+    name: 'sweden',
+    displayName: 'Swe 🇸🇪',
     stations: [
       {
         name: 'NRJ Sverige',

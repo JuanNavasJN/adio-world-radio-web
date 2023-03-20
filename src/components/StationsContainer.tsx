@@ -5,11 +5,14 @@ import { StationsContext } from '@/contexts/StationsContext';
 import { Station as IStation } from '@/contexts/StationsContext.types';
 
 const StationsContainer: FC = () => {
-  const { stations, setStation, currentStation } = useContext(StationsContext);
+  const { stations, setStation, currentStation, isLoading } =
+    useContext(StationsContext);
 
   const handleClick = (station: IStation) => {
     setStation(station);
   };
+
+  if (isLoading) return <p>Loading...</p>;
 
   return (
     <section className={styles.stationsContainer}>

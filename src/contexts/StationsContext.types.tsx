@@ -8,7 +8,7 @@ export interface Country {
 export interface Station {
   name: string;
   url: string;
-  cover?: any;
+  coverUrl?: any;
 }
 
 export interface IStationsContext {
@@ -18,6 +18,7 @@ export interface IStationsContext {
   setCountry: (newCountry: string) => void;
   setStation: (newStation: Station) => void;
   currentCountry: string;
+  isLoading: boolean;
 }
 
 export interface StationsProviderProps {

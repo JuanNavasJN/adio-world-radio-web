@@ -17,7 +17,7 @@ const Station: FC<StationProps> = ({ station, onClick, isActive }) => {
     >
       <Image
         alt={station.name}
-        src={station.cover}
+        src={station.coverUrl}
         width={82}
         height={60}
         className={styles.stationCover}
