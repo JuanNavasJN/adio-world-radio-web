@@ -28,9 +28,11 @@ const StationsProvider: FC<StationsProviderProps> = ({ children }) => {
   const { data, error, isLoading } = useSWR(API_URL);
 
   useEffect(() => {
-    if (data && data.length > 0) {
-      setCountriesStations(data);
-    }
+    // if (data && data.length > 0) {
+    //   setCountriesStations(data);
+    // }
+
+    setCountriesStations(countriesStationsStatic);
   }, [data]);
 
   if (error) console.error(error);
