@@ -57,16 +57,6 @@ export const countriesStations = [
     displayName: 'Sin 🇸🇬',
     stations: [
       {
-        name: '883 Jia FM',
-        url: 'http://playerservices.streamtheworld.com/api/livestream-redirect/883JIAAAC.aac',
-        cover: '/stations-logos/jia-fm.jpg'
-      },
-      {
-        name: '96.3 Hao FM',
-        url: 'http://playerservices.streamtheworld.com/api/livestream-redirect/HAO_963AAC.aac',
-        cover: '/stations-logos/hao-fm.jpg'
-      },
-      {
         name: '973FM: Blasts That Last',
         url: 'https://c16.radioboss.fm:18115/stream',
         cover: '/stations-logos/973fm.jpg'
@@ -81,11 +71,6 @@ export const countriesStations = [
         name: 'Total Hits',
         url: 'https://totalhits128-thehitsnetwork.radioca.st/;',
         cover: '/stations-logos/total-hits.webp'
-      },
-      {
-        name: 'Fresh UK',
-        url: 'http://pollux.shoutca.st:8804/1',
-        cover: '/stations-logos/fresh-uk.png'
       },
       {
         name: 'BBC Radio 1',
