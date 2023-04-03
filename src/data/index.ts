@@ -60,6 +60,11 @@ export const countriesStations = [
         name: '973FM: Blasts That Last',
         url: 'https://c16.radioboss.fm:18115/stream',
         cover: '/stations-logos/973fm.jpg'
+      },
+      {
+        name: 'Symphony 924',
+        url: 'https://22393.live.streamtheworld.com/SYMPHONY924_PREM.aac',
+        cover: '/stations-logos/symphony-924.jpg'
       }
     ]
   },
@@ -83,18 +88,59 @@ export const countriesStations = [
         cover: '/stations-logos/bbc-2.webp'
       }
     ]
+  },
+  {
+    name: 'brazil',
+    displayName: 'Bra 🇧🇷',
+    stations: [
+      {
+        name: 'Antena 1 - Brasília',
+        url: 'https://antenaone.crossradio.com.br/stream/1;?1649321773279',
+        cover: '/stations-logos/antena-1-brasilia.jpg'
+      },
+      {
+        name: 'Hits40Station',
+        url: 'https://listen.openstream.co/3908/audio',
+        cover: '/stations-logos/hits-40.webp'
+      },
+      {
+        name: 'Rádio Globo Rio',
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_GLOBO_RJAAC.aac',
+        cover: '/stations-logos/radio-globo.png'
+      },
+      {
+        name: 'Rádio Bossa Nova Brazil',
+        url: 'https://stream.streamgenial.stream/87eu2988rm0uv',
+        cover: '/stations-logos/bossa-nova.webp'
+      }
+    ]
+  },
+  {
+    name: 'kazakhstan',
+    displayName: 'Kaz 🇰🇿',
+    stations: [
+      {
+        name: 'Радио Zhuldyz FM',
+        url: 'https://www.liveradio.es/http://91.201.214.229:8000/zhulduz',
+        cover: '/stations-logos/zhulduz.jpg'
+      },
+      {
+        name: 'Business FM',
+        url: 'https://kvs01.businessfm.kz/businessfm',
+        cover: '/stations-logos/business-fm.jpg'
+      },
+      {
+        name: 'Radio Classic - Astana KZ',
+        url: 'https://radio-streams.kaztrk.kz/classic/classic/icecast.audio',
+        cover: '/stations-logos/radio-classic.jpg'
+      },
+      {
+        name: 'Love Radio',
+        url: 'https://stream.gakku.tv:8443/love128.mp3',
+        cover: '/stations-logos/love-radio.jpg'
+      }
+    ]
   }
-  // {
-  //   name: 'singapore',
-  //   displayName: 'Sin 🇸🇬',
-  //   stations: [
-  //     {
-  //       name: '',
-  //       url: '',
-  //       cover: '/stations-logos/.png'
-  //     },
-  //   ]
-  // },
   // {
   //   name: '',
   //   displayName: '',
