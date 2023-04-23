@@ -86,6 +86,16 @@ export const countriesStations = [
         name: 'BBC Radio 2',
         url: 'https://stream.live.vc.bbcmedia.co.uk/bbc_radio_two',
         coverUrl: 'https://adio.veest.net/stations-logos/bbc-2.webp'
+      },
+      {
+        name: 'Radio Essex',
+        url: 'https://playoutonestreaming.com/proxy/essex?mp=/stream',
+        coverUrl: 'https://adio.veest.net/stations-logos/radio-essex.png'
+      },
+      {
+        name: 'Dance Classics',
+        url: 'https://stream3.jdsnet.co.uk/bassfm',
+        coverUrl: 'https://adio.veest.net/stations-logos/dance-classics.webp'
       }
     ]
   },
@@ -138,6 +148,48 @@ export const countriesStations = [
         name: 'Love Radio',
         url: 'https://stream.gakku.tv:8443/love128.mp3',
         coverUrl: 'https://adio.veest.net/stations-logos/love-radio.jpg'
+      }
+    ]
+  },
+  {
+    name: 'germany',
+    displayName: 'Ger 🇩🇪',
+    stations: [
+      {
+        name: 'ANTENNE BAYERN Top 40',
+        url: 'https://s9-webradio.webradio.de/top-40',
+        coverUrl: 'https://adio.veest.net/stations-logos/top-40.jpg'
+      },
+      {
+        name: 'Antenne Bayern',
+        url: 'https://s2-webradio.antenne.de/antenne/stream',
+        coverUrl: 'https://adio.veest.net/stations-logos/antenne-bayern.jpg'
+      },
+      {
+        name: 'Radio Lausitz',
+        url: 'https://streams.bcs-systems.de/slp/live/lausitz/mp3/tunein',
+        coverUrl: 'https://adio.veest.net/stations-logos/radio-lausitz.png'
+      }
+    ]
+  },
+  {
+    name: 'ukraine',
+    displayName: 'Ukr 🇺🇦',
+    stations: [
+      {
+        name: 'Хіт FM',
+        url: 'https://online.hitfm.ua/HitFM',
+        coverUrl: 'https://adio.veest.net/stations-logos/hit-fm.png'
+      },
+      {
+        name: 'Радио NRJ Украина',
+        url: 'https://cast.radiogroup.com.ua/nrj',
+        coverUrl: 'https://adio.veest.net/stations-logos/nrj-ukraine.jpg'
+      },
+      {
+        name: 'UA: Радіо Промінь',
+        url: 'https://radio.nrcu.gov.ua:8443/ur2-mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/ua-radio.jpg'
       }
     ]
   }
