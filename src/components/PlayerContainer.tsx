@@ -10,14 +10,23 @@ const PlayerContainer: FC = () => {
   const { currentStation } = useContext(StationsContext);
   const [isPlaying, setIsPlaying] = useState(true);
   const audioRef = useRef<HTMLAudioElement>(null);
+  const [sliderValue, setSliderValue] = useState(50);
 
   useEffect(() => {
     if (currentStation) {
       setIsPlaying(true);
 
       if (audioRef.current) {
-        audioRef.current.volume = 0.5;
+        let defaultVolume = 0.5;
+
+        const savedVolume = localStorage.getItem('volume');
+
+        if (savedVolume) defaultVolume = Number(savedVolume);
+
+        console.log({ currentStation, defaultVolume });
+        audioRef.current.volume = defaultVolume;
         audioRef.current.play();
+        setSliderValue(defaultVolume * 100);
       }
     }
   }, [currentStation]);
@@ -40,8 +49,12 @@ const PlayerContainer: FC = () => {
   };
 
   const handleSliderChange = (value: number | number[]) => {
+    setSliderValue(value as number);
+
     if (audioRef.current) {
-      audioRef.current.volume = (value as number) / 100;
+      const newVolume = (value as number) / 100;
+      audioRef.current.volume = newVolume;
+      localStorage.setItem('volume', newVolume.toString());
     }
   };
 
@@ -60,7 +73,7 @@ const PlayerContainer: FC = () => {
         <Slider
           className={styles.slider}
           onChange={handleSliderChange}
-          defaultValue={50}
+          value={sliderValue}
         />
 
         <audio ref={audioRef} src={currentStation.url} />
