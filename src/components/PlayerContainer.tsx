@@ -23,10 +23,12 @@ const PlayerContainer: FC = () => {
 
         if (savedVolume) defaultVolume = Number(savedVolume);
 
-        console.log({ currentStation, defaultVolume });
         audioRef.current.volume = defaultVolume;
-        audioRef.current.play();
+
         setSliderValue(defaultVolume * 100);
+        audioRef.current.play().catch(_ => {
+          setIsPlaying(false);
+        });
       }
     }
   }, [currentStation]);
