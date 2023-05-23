@@ -17,6 +17,21 @@ export const countriesStations = [
         name: 'Antena 2 Jazz In',
         url: 'https://radiocast.rtp.pt/antena2jazzin80a.mp3',
         coverUrl: 'https://adio.veest.net/stations-logos/antena-jazz-in.png'
+      },
+      {
+        name: 'Antena 1 - RTP',
+        url: 'https://radiocast.rtp.pt/antena180a.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/antena-1-rtp.png'
+      },
+      {
+        name: 'Antena 2 - RTP',
+        url: 'https://radiocast.rtp.pt/antena280a.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/antena-2-rtp.png'
+      },
+      {
+        name: 'Antena 3 - RTP',
+        url: 'https://radiocast.rtp.pt/antena380a.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/antena-3-rtp.png'
       }
     ]
   },
@@ -104,7 +119,7 @@ export const countriesStations = [
     displayName: 'Bra 🇧🇷',
     stations: [
       {
-        name: 'Antena 1 - Brasília',
+        name: 'Antena 1',
         url: 'https://antenaone.crossradio.com.br/stream/1;?1649321773279',
         coverUrl: 'https://adio.veest.net/stations-logos/antena-1-brasilia.jpg'
       },
