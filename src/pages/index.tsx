@@ -10,10 +10,7 @@ export default function Home() {
     <>
       <Head>
         <title>Adio World Radio - FM Online</title>
-        <meta name="description" content="Adio World Radio - FM Online" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <StationsProvider>
         <main className={styles.main}>

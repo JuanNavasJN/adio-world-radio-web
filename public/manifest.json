@@ -1,0 +1,15 @@
+{
+  "name": "Adio World Radio - FM Online",
+  "short_name": "Adio World Radio",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#202429",
+  "description": "FM Online.",
+  "icons": [
+    {
+      "src": "adio-world-radio.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    }
+  ]
+}
