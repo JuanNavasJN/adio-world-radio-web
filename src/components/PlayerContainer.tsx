@@ -30,6 +30,18 @@ const PlayerContainer: FC = () => {
           setIsPlaying(false);
         });
       }
+
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: currentStation.name,
+          artwork: [
+            {
+              src: currentStation.coverUrl,
+              sizes: '150x150'
+            }
+          ]
+        });
+      }
     }
   }, [currentStation]);
 
@@ -78,7 +90,11 @@ const PlayerContainer: FC = () => {
           value={sliderValue}
         />
 
-        <audio ref={audioRef} src={currentStation.url} />
+        <audio
+          ref={audioRef}
+          src={currentStation.url}
+          title={currentStation.name}
+        />
       </div>
     </section>
   );
