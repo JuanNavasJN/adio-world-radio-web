@@ -44,8 +44,19 @@ const NavContainer: FC = () => {
     }
   }, [currentCountry, initalOptions]);
 
+  useEffect(() => {
+    const country = localStorage.getItem('country');
+
+    if (country) {
+      handleClick(country);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [initalOptions]);
+
   const handleClick = (country: string) => {
     setCountry(country);
+
+    localStorage.setItem('country', country);
 
     setOptions(
       initalOptions.map(opt => {
