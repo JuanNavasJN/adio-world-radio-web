@@ -32,6 +32,36 @@ export const countriesStations = [
         name: 'Antena 3 - RTP',
         url: 'https://radiocast.rtp.pt/antena380a.mp3',
         coverUrl: 'https://adio.veest.net/stations-logos/antena-3-rtp.png'
+      },
+      {
+        name: 'RFM Online',
+        url: 'https://22333.live.streamtheworld.com/RFMAAC.aac',
+        coverUrl: 'https://adio.veest.net/stations-logos/rfm-online.png'
+      },
+      {
+        name: 'RFM Dance IT',
+        url: 'https://20863.live.streamtheworld.com/DANCEONTHEFLOORAAC.aac',
+        coverUrl: 'https://adio.veest.net/stations-logos/rfm-dance.png'
+      },
+      {
+        name: 'RFM Latinas',
+        url: 'https://25443.live.streamtheworld.com/RFM_LATINASAAC.aac',
+        coverUrl: 'https://adio.veest.net/stations-logos/rfm-latinas.png'
+      },
+      {
+        name: "80's RFM",
+        url: 'https://20863.live.streamtheworld.com/GR80SRFMAAC.aac',
+        coverUrl: 'https://adio.veest.net/stations-logos/80-rfm.png'
+      },
+      {
+        name: "90's RFM",
+        url: 'https://20133.live.streamtheworld.com/RFM_90SAAC.aac',
+        coverUrl: 'https://adio.veest.net/stations-logos/90-rfm.png'
+      },
+      {
+        name: 'RFM Toca Portugal',
+        url: 'https://20133.live.streamtheworld.com/RFM_PORTUGALAAC.aac',
+        coverUrl: 'https://adio.veest.net/stations-logos/rfm-toca-portugal.png'
       }
     ]
   },
@@ -205,6 +235,32 @@ export const countriesStations = [
         name: 'UA: Радіо Промінь',
         url: 'https://radio.nrcu.gov.ua:8443/ur2-mp3',
         coverUrl: 'https://adio.veest.net/stations-logos/ua-radio.jpg'
+      }
+    ]
+  },
+  {
+    name: 'south-africa',
+    displayName: 'ZA 🇿🇦',
+    stations: [
+      {
+        name: 'GoodHope FM live',
+        url: 'https://25483.live.streamtheworld.com/GOODHOPEFMAAC_SC',
+        coverUrl: 'https://adio.veest.net/stations-logos/goodhope.png'
+      },
+      {
+        name: 'Jacaranda FM',
+        url: 'https://live.jacarandafm.com/jacarandahigh.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/jacaranda-fm.png'
+      },
+      {
+        name: 'MFM 92.6',
+        url: 'https://stream-156.zeno.fm/f0ye6uaxus8uv',
+        coverUrl: 'https://adio.veest.net/stations-logos/mfm.png'
+      },
+      {
+        name: 'Fine Music Radio 101.3 live',
+        url: 'https://edge.iono.fm/xice/fmr_live_medium.aac',
+        coverUrl: 'https://adio.veest.net/stations-logos/fine-radio.png'
       }
     ]
   }
