@@ -3,14 +3,13 @@
   border-top: 2px solid var(--light-color);
   position: fixed;
   width: 100vw;
-  height: 120px;
+  height: 100px;
   bottom: 0;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 30px;
+  padding: 10px 30px 0 20px;
 }
 
 .playerContainer .column {
@@ -19,6 +18,7 @@
 }
 
 .playerContainer .slider {
+  margin-top: 15px;
   width: 150px;
 }
 
