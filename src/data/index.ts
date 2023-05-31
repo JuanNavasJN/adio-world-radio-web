@@ -35,32 +35,32 @@ export const countriesStations = [
       },
       {
         name: 'RFM Online',
-        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_SC',
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RFMAAC_SC',
         coverUrl: 'https://adio.veest.net/stations-logos/rfm-online.png'
       },
       {
         name: 'RFM Dance IT',
-        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/DANCEONTHEFLOOR_SC',
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/DANCEONTHEFLOORAAC_SC',
         coverUrl: 'https://adio.veest.net/stations-logos/rfm-dance.png'
       },
       {
         name: 'RFM Latinas',
-        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_LATINAS_SC',
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_LATINASAAC_SC',
         coverUrl: 'https://adio.veest.net/stations-logos/rfm-latinas.png'
       },
       {
         name: "80's RFM",
-        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/GR80SRFM_SC',
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/GR80SRFMAAC_SC',
         coverUrl: 'https://adio.veest.net/stations-logos/80-rfm.png'
       },
       {
         name: "90's RFM",
-        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_90S_SC',
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_90SAAC_SC',
         coverUrl: 'https://adio.veest.net/stations-logos/90-rfm.png'
       },
       {
         name: 'RFM Toca Portugal',
-        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_PORTUGAL_SC',
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_PORTUGALAAC_SC',
         coverUrl: 'https://adio.veest.net/stations-logos/rfm-toca-portugal.png'
       }
     ]
