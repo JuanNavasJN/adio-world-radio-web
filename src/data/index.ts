@@ -14,21 +14,6 @@ export const countriesStations = [
         coverUrl: 'https://adio.veest.net/stations-logos/cidade-fm.png'
       },
       {
-        name: 'Antena 2 Jazz In',
-        url: 'https://radiocast.rtp.pt/antena2jazzin80a.mp3',
-        coverUrl: 'https://adio.veest.net/stations-logos/antena-jazz-in.png'
-      },
-      {
-        name: 'Antena 1 - RTP',
-        url: 'https://radiocast.rtp.pt/antena180a.mp3',
-        coverUrl: 'https://adio.veest.net/stations-logos/antena-1-rtp.png'
-      },
-      {
-        name: 'Antena 2 - RTP',
-        url: 'https://radiocast.rtp.pt/antena280a.mp3',
-        coverUrl: 'https://adio.veest.net/stations-logos/antena-2-rtp.png'
-      },
-      {
         name: 'Antena 3 - RTP',
         url: 'https://radiocast.rtp.pt/antena380a.mp3',
         coverUrl: 'https://adio.veest.net/stations-logos/antena-3-rtp.png'
@@ -44,24 +29,9 @@ export const countriesStations = [
         coverUrl: 'https://adio.veest.net/stations-logos/rfm-dance.png'
       },
       {
-        name: 'RFM Latinas',
-        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_LATINASAAC_SC',
-        coverUrl: 'https://adio.veest.net/stations-logos/rfm-latinas.png'
-      },
-      {
         name: "80's RFM",
         url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/GR80SRFMAAC_SC',
         coverUrl: 'https://adio.veest.net/stations-logos/80-rfm.png'
-      },
-      {
-        name: "90's RFM",
-        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_90SAAC_SC',
-        coverUrl: 'https://adio.veest.net/stations-logos/90-rfm.png'
-      },
-      {
-        name: 'RFM Toca Portugal',
-        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_PORTUGALAAC_SC',
-        coverUrl: 'https://adio.veest.net/stations-logos/rfm-toca-portugal.png'
       }
     ]
   },
@@ -261,6 +231,47 @@ export const countriesStations = [
         name: 'Fine Music Radio 101.3 live',
         url: 'https://edge.iono.fm/xice/fmr_live_medium.aac',
         coverUrl: 'https://adio.veest.net/stations-logos/fine-radio.png'
+      }
+    ]
+  },
+  {
+    name: 'france',
+    displayName: 'Fra 🇫🇷',
+    stations: [
+      {
+        name: 'NRJ',
+        url: 'https://scdn.nrjaudio.fm/adwz2/fr/30001/mp3_128.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/nrj-live.png'
+      },
+      {
+        name: 'CHERIE FM',
+        url: 'https://scdn.nrjaudio.fm/adwz2/fr/30201/mp3_128.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/cherie.png'
+      },
+      {
+        name: 'NRJ HITS',
+        url: 'https://scdn.nrjaudio.fm/adwz1/fr/30043/mp3_128.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/nrj-hits.png'
+      },
+      {
+        name: 'Top Music',
+        url: 'https://sc.creacast.com/topmusic_sainte_marie',
+        coverUrl: 'https://adio.veest.net/stations-logos/top-music.png'
+      },
+      {
+        name: 'Radio Classique',
+        url: 'https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/radio-classique.png'
+      },
+      {
+        name: 'TSF Jazz',
+        url: 'https://tsfjazz.ice.infomaniak.ch/tsfjazz-high.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/tsf-jazz.png'
+      },
+      {
+        name: 'RTL',
+        url: 'https://icecast.rtl.fr/rtl-1-44-128',
+        coverUrl: 'https://adio.veest.net/stations-logos/rtl.png'
       }
     ]
   }
