@@ -14,6 +14,12 @@ export default function Document() {
           name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
         />
+        <script
+          async
+          defer
+          data-website-id="1cf64f59-5ba2-4b67-849e-ad78838eb8be"
+          src="https://umami.veest.net/umami.js"
+        ></script>
       </Head>
       <body>
         <Main />
