@@ -124,11 +124,6 @@ export const countriesStations = [
         coverUrl: 'https://adio.veest.net/stations-logos/antena-1-brasilia.jpg'
       },
       {
-        name: 'Hits40Station',
-        url: 'https://listen.openstream.co/3908/audio',
-        coverUrl: 'https://adio.veest.net/stations-logos/hits-40.webp'
-      },
-      {
         name: 'Rádio Globo Rio',
         url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_GLOBO_RJAAC.aac',
         coverUrl: 'https://adio.veest.net/stations-logos/radio-globo.png'
@@ -137,6 +132,16 @@ export const countriesStations = [
         name: 'Rádio Bossa Nova Brazil',
         url: 'https://stream.streamgenial.stream/87eu2988rm0uv',
         coverUrl: 'https://adio.veest.net/stations-logos/bossa-nova.webp'
+      },
+      {
+        name: 'Jovem Pan FM Curitiba',
+        url: 'https://r15.ciclano.io:14417/live',
+        coverUrl: 'https://adio.veest.net/stations-logos/jovem-pan-curitiba.jpg'
+      },
+      {
+        name: '98 FM Curitiba',
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/98FM_CWBAAC.aac',
+        coverUrl: 'https://adio.veest.net/stations-logos/98-fm-curitiba.png'
       }
     ]
   },
