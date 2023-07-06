@@ -142,6 +142,11 @@ export const countriesStations = [
         name: '98 FM Curitiba',
         url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/98FM_CWBAAC.aac',
         coverUrl: 'https://adio.veest.net/stations-logos/98-fm-curitiba.png'
+      },
+      {
+        name: 'Soft Hits',
+        url: 'https://stream.zeno.fm/q28mdd6drchvv',
+        coverUrl: 'https://adio.veest.net/stations-logos/soft-hits.png'
       }
     ]
   },
