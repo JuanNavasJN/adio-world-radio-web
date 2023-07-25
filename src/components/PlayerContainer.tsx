@@ -5,6 +5,7 @@ import Slider from 'rc-slider';
 import PlayPauseButton from './PlayPauseButton';
 
 import 'rc-slider/assets/index.css';
+import Head from 'next/head';
 
 const PlayerContainer: FC = () => {
   const { currentStation } = useContext(StationsContext);
@@ -78,6 +79,9 @@ const PlayerContainer: FC = () => {
 
   return (
     <section className={styles.playerContainer}>
+      <Head>
+        <title>{currentStation.name} - Adio World Radio</title>
+      </Head>
       <div className={styles.column}>
         <PlayPauseButton onClick={handlePlayStop} isPlaying={isPlaying} />
 
