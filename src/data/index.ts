@@ -194,6 +194,36 @@ export const countriesStations = [
         name: 'Radio Lausitz',
         url: 'https://streams.bcs-systems.de/slp/live/lausitz/mp3/tunein',
         coverUrl: 'https://adio.veest.net/stations-logos/radio-lausitz.png'
+      },
+      {
+        name: 'MDR JUMP',
+        url: 'https://mdr-284320-0.sslcast.mdr.de/mdr/284320/0/mp3/high/stream.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/mdr-jump.png'
+      },
+      {
+        name: 'HITRADIO RTL Sachsen',
+        url: 'https://web.radio.hitradio-rtl.de/hrrtl-sachsen',
+        coverUrl: 'https://adio.veest.net/stations-logos/hitradio-rtl.png'
+      },
+      {
+        name: 'Radio Leipzig',
+        url: 'https://hermes.bcs-systems.de/radio-leipzig_simulcast_192k_mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/radio-leipzig.png'
+      },
+      {
+        name: 'RTL Radio UKW',
+        url: 'https://stream.rtlradio.de/rtl-de-ukw/mp3-128/konsole/?sabcsid=1755261784&context=fHA6LTE=',
+        coverUrl: 'https://adio.veest.net/stations-logos/rtl-radio-ukw.png'
+      },
+      {
+        name: 'MDR Kultur Klassik',
+        url: 'https://mdr-284311-0.sslcast.mdr.de/mdr/284311/0/mp3/high/stream.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/mdr-kultur-klassik.jpg'
+      },
+      {
+        name: 'BR Klassik',
+        url: 'https://dispatcher.rndfnk.com/br/brklassik/live/mp3/high?aggregator=web',
+        coverUrl: 'https://adio.veest.net/stations-logos/br-klassik.png'
       }
     ]
   },
