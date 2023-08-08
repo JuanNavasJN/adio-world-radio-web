@@ -93,16 +93,6 @@ export const countriesStations = [
         coverUrl: 'https://adio.veest.net/stations-logos/total-hits.webp'
       },
       {
-        name: 'BBC Radio 1',
-        url: 'https://stream.live.vc.bbcmedia.co.uk/bbc_radio_one',
-        coverUrl: 'https://adio.veest.net/stations-logos/bbc-1.webp'
-      },
-      {
-        name: 'BBC Radio 2',
-        url: 'https://stream.live.vc.bbcmedia.co.uk/bbc_radio_two',
-        coverUrl: 'https://adio.veest.net/stations-logos/bbc-2.webp'
-      },
-      {
         name: 'Radio Essex',
         url: 'https://playoutonestreaming.com/proxy/essex?mp=/stream',
         coverUrl: 'https://adio.veest.net/stations-logos/radio-essex.png'
