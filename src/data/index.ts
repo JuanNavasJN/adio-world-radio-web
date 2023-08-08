@@ -304,6 +304,42 @@ export const countriesStations = [
         coverUrl: 'https://adio.veest.net/stations-logos/rtl.png'
       }
     ]
+  },
+  {
+    name: 'usa',
+    displayName: 'US 🇺🇸',
+    stations: [
+      {
+        name: 'NPR: National Public Radio',
+        url: 'https://npr-ice.streamguys1.com/live.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/npr.png'
+      },
+      {
+        name: 'KEGK 106.9 The Eagle',
+        url: 'https://ice9.securenetsystems.net/KEGK',
+        coverUrl: 'https://adio.veest.net/stations-logos/kegk.png'
+      },
+      {
+        name: 'Classical MPR',
+        url: 'https://cms.stream.publicradio.org/cms.aac',
+        coverUrl: 'https://adio.veest.net/stations-logos/classical-mpr.jpg'
+      },
+      {
+        name: 'Lite 99.9',
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/KCMLAAC_SC',
+        coverUrl: 'https://adio.veest.net/stations-logos/lite-fm.png'
+      },
+      {
+        name: '101 SMOOTH JAZZ',
+        url: 'https://ais-sa5.cdnstream1.com/b22139_128mp3?aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1652363073&listenerId=esAdblock0718869',
+        coverUrl: 'https://adio.veest.net/stations-logos/101-smooth-jazz.jpg'
+      },
+      {
+        name: 'Soft Rock',
+        url: 'https://gold.streamguys1.com/softrock.mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/soft-rock.jpg'
+      }
+    ]
   }
   // {
   //   name: '',
