@@ -338,6 +338,31 @@ export const countriesStations = [
         name: 'Soft Rock',
         url: 'https://gold.streamguys1.com/softrock.mp3',
         coverUrl: 'https://adio.veest.net/stations-logos/soft-rock.jpg'
+      },
+      {
+        name: 'LOVE RADIO',
+        url: 'https://loveradio.streamingmedia.it/play',
+        coverUrl: 'https://adio.veest.net/stations-logos/love-radio.png'
+      },
+      {
+        name: 'WHYY 91 FM',
+        url: 'https://whyy.streamguys1.com/whyy-mp3',
+        coverUrl: 'https://adio.veest.net/stations-logos/whyy.png'
+      },
+      {
+        name: 'WRTI 90.1 FM (Classical)',
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/WRTI_CLASSICAL_SC',
+        coverUrl: 'https://adio.veest.net/stations-logos/wrti.png'
+      },
+      {
+        name: 'WRTI 90.1 FM (Jazz)',
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/WRTI_JAZZ_SC',
+        coverUrl: 'https://adio.veest.net/stations-logos/wrti.png'
+      },
+      {
+        name: 'WZPL 99-5 ZPL',
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/WZPLFMAAC_SC?dist=tg&pname=TDSdk',
+        coverUrl: 'https://adio.veest.net/stations-logos/wzpl.png'
       }
     ]
   }
