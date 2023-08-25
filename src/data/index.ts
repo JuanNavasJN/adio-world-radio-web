@@ -348,6 +348,16 @@ export const countriesStations = [
         name: 'WRTI 90.1 FM (Jazz)',
         url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/WRTI_JAZZ_SC',
         coverUrl: 'https://adio.veest.net/stations-logos/wrti.png'
+      },
+      {
+        name: "Today's Hits Radio",
+        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/977_HITS_SC',
+        coverUrl: 'https://adio.veest.net/stations-logos/todays-hits-radio.jpg'
+      },
+      {
+        name: 'V100',
+        url: 'https://prod-54-211-226-228.amperwave.net/wvradio-wvaffmmp3-imc2?session-id=5c6b704557e0006937f3d05bed8f23ae&source=TuneIn&us_privacy=1YNY',
+        coverUrl: 'https://adio.veest.net/stations-logos/v100.png'
       }
     ]
   }
