@@ -315,19 +315,9 @@ export const countriesStations = [
         coverUrl: 'https://adio.veest.net/stations-logos/npr.png'
       },
       {
-        name: 'KEGK 106.9 The Eagle',
-        url: 'https://ice9.securenetsystems.net/KEGK',
-        coverUrl: 'https://adio.veest.net/stations-logos/kegk.png'
-      },
-      {
         name: 'Classical MPR',
         url: 'https://cms.stream.publicradio.org/cms.aac',
         coverUrl: 'https://adio.veest.net/stations-logos/classical-mpr.jpg'
-      },
-      {
-        name: 'Lite 99.9',
-        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/KCMLAAC_SC',
-        coverUrl: 'https://adio.veest.net/stations-logos/lite-fm.png'
       },
       {
         name: '101 SMOOTH JAZZ',
@@ -358,11 +348,6 @@ export const countriesStations = [
         name: 'WRTI 90.1 FM (Jazz)',
         url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/WRTI_JAZZ_SC',
         coverUrl: 'https://adio.veest.net/stations-logos/wrti.png'
-      },
-      {
-        name: 'WZPL 99-5 ZPL',
-        url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/WZPLFMAAC_SC?dist=tg&pname=TDSdk',
-        coverUrl: 'https://adio.veest.net/stations-logos/wzpl.png'
       }
     ]
   }
