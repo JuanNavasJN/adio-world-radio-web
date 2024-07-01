@@ -10,7 +10,8 @@ export default function App({ Component, pageProps }: AppProps) {
     <SWRConfig
       value={{
         fetcher,
-        provider: localStorageProvider
+        provider: localStorageProvider,
+        revalidateOnFocus: false
       }}
     >
       <Component {...pageProps} />
