@@ -8,6 +8,11 @@
   transition: 0.5s;
 }
 
+.navOption svg {
+  width: 20px;
+  margin-left: 5px;
+}
+
 .navOption.isActive,
 .navOption:hover {
   background-color: var(--highlight-color);
