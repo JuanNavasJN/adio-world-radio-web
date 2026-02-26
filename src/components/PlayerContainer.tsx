@@ -67,7 +67,8 @@ const PlayerContainer: FC = () => {
     setSliderValue(value as number);
 
     if (audioRef.current) {
-      const newVolume = (value as number) / 100;
+      const newVolume = (value as number) / 500;
+      console.log({ newVolume });
       audioRef.current.volume = newVolume;
       localStorage.setItem('volume', newVolume.toString());
     }
